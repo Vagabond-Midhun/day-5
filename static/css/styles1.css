@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    background-image: url('bg12.png');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+  }
+  
+  header{
+    margin: 100px;
+   
+    border-left: 40px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .main{
+    margin: 20px;
+  }
+  .wrapper{
+    width: 720px;
+    background: orange;
+    border: 2px solid rgba(255, 255, 255, .2);
+    
+    color: black;
+    border-radius: 12px;
+    padding: 30px;
+  }
+  .wrapper h1{
+    padding: 10px;
+    font-size: 36px;
+   
+  }
+  .wrapper h2{
+    position: top -20px;
+  }
